@@ -4,7 +4,8 @@ public class Dog extends Animal {
 
     private static int count;
 
-    public Dog(String kind, String subspecies, String animalName, String name, String breed, int age) {
+    public Dog(String kind, String subspecies, String animalName,
+               String name, String breed, int age) {
         super(kind, subspecies, animalName, name, breed, age);
         count++;
     }
