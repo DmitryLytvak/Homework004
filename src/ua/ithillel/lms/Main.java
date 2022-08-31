@@ -27,5 +27,7 @@ public class Main {
 
 
         System.out.println("Created by animals - " + (Dog.getCount() + Cat.getCount()));
+        System.out.println("Created by dogs - " + Dog.getCount());
+        System.out.println("Created by cats - " + Cat.getCount());
     }
 }
